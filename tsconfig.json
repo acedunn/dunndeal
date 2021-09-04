@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "moduleResolution": "node",
+    "lib": ["es6", "dom"],
+    "outDir": "build",
+    "rootDir": "src",
+    "strict": false,
+    "esModuleInterop": true,
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "stripInternal": true,
+    "strictNullChecks": true
+  },
+  "exclude": ["node_modules", "tmp", "**/*.test.ts", "build", "src/tests"],
+  "typedocOptions": {
+    "mode": "file",
+    "module": "commonjs",
+    "excludePrivate": true,
+    "excludeNotExported": true
+  }
+}
